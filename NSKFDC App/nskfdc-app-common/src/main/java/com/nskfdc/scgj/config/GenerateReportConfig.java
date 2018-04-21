@@ -4,8 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix="login",locations="classpath:sql/login.yml")
-public class LoginConfigSql {
+@ConfigurationProperties(prefix="generateReport",locations="classpath:sql/generateReport.yml")
+public class GenerateReportConfig {
 
-	//write your code here
 }

@@ -2,8 +2,8 @@ package com.nskfdc.scgj.dto;
 
 import com.nskfdc.scgj.common.BaseDto;
 
-public class LoginDto extends BaseDto{
+public class ReportHistoryDto extends BaseDto{
 	
-	//Write your code here
+	//Write Your code Here
 
 }

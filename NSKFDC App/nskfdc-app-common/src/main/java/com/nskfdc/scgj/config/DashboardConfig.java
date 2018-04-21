@@ -4,8 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix="login",locations="classpath:sql/login.yml")
-public class LoginConfigSql {
+@ConfigurationProperties(prefix="dashboard",locations="classpath:sql/dashboard.yml")
+public class DashboardConfig {
 
-	//write your code here
 }

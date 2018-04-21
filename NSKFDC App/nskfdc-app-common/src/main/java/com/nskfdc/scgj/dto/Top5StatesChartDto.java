@@ -2,8 +2,8 @@ package com.nskfdc.scgj.dto;
 
 import com.nskfdc.scgj.common.BaseDto;
 
-public class LoginDto extends BaseDto{
+public class Top5StatesChartDto extends BaseDto{
 	
-	//Write your code here
+	//write your code here
 
 }
