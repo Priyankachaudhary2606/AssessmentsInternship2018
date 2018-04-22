@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="generateCertificate",locations="classpath:sql/generateCertificate.yml")
 public class GenerateCertificateConfig {
 
+	//write your code here
+	
 }

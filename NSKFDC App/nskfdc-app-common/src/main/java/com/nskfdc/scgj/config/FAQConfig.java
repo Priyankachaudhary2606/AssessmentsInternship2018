@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="faq",locations="classpath:sql/faq.yml")
 public class FAQConfig {
 
+	//write your code here
+	
 }

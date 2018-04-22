@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="dashboard",locations="classpath:sql/dashboard.yml")
 public class DashboardConfig {
 
+	//Write your code here
+	
 }

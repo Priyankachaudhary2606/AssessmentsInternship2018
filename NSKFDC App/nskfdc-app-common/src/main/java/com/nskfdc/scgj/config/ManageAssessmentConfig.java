@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="manageAssessment",locations="classpath:sql/manageAssessment.yml")
 public class ManageAssessmentConfig {
 
+	//write your code here
+	
 }

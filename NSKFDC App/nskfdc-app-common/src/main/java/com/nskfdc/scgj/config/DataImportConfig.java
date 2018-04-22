@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="dataImport",locations="classpath:sql/dataImport.yml")
 public class DataImportConfig {
 
+	//write your code here
+	
 }

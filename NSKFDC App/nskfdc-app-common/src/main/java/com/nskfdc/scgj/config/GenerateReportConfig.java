@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="generateReport",locations="classpath:sql/generateReport.yml")
 public class GenerateReportConfig {
 
+	//write your code here
+	
 }
