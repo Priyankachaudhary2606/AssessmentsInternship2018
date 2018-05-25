@@ -1,6 +1,6 @@
-var manage = angular.module('main');
+var manage = angular.module('app');
 
-manage.controller('manage',function($scope, $http) {
+manage.controller('manageCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	

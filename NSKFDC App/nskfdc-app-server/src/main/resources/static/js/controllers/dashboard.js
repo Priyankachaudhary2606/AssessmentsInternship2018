@@ -1,6 +1,6 @@
-var dashboard = angular.module('main');
+var dashboard = angular.module('app');
 
-dashboard.controller('dashboard',function($scope, $http) {
+dashboard.controller('dashboardCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	

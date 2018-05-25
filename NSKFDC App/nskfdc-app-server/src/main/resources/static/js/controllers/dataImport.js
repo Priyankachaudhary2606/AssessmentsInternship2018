@@ -1,6 +1,6 @@
-var import = angular.module('main');
+var import = angular.module('app');
 
-import.controller('import',function($scope, $http) {
+import.controller('importCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	

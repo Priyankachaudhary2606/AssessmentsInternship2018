@@ -1,6 +1,6 @@
-var report = angular.module('main');
+var report = angular.module('app');
 
-report.controller('report',function($scope, $http) {
+report.controller('reportCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	

@@ -1,6 +1,6 @@
-var faq = angular.module('main');
+var faq = angular.module('app');
 
-faq.controller('faq',function($scope, $http) {
+faq.controller('faqCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	

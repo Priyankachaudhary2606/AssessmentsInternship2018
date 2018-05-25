@@ -1,6 +1,6 @@
-var certificate = angular.module('main');
+var certificate = angular.module('app');
 
-certificate.controller('certificate',function($scope, $http) {
+certificate.controller('certificateCtrl',function($scope, $http) {
 	
 	//code to call backend controllers
 	
