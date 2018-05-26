@@ -1,16 +1,22 @@
-var main = angular.module('main', ['ngRoute',
-                                        'ui.grid',
-                                         'ui.grid.edit',
-                                          'ui.grid.cellNav',
-                                          'ui.grid.autoResize',
-                                          'ui.bootstrap',
-                                          'ui.grid.pagination']);
-
-	//enter your routing code here
+var app = angular.module('app', ['ngRoute',
+								'ui.grid',
+							    'ui.grid.edit',
+							    'ui.grid.cellNav',
+							    'ui.grid.autoResize',
+							    'ui.bootstrap',
+							    'ui.grid.pagination']);
 
 
-main.controller('main', function($rootScope, $http, $location, $route,$scope,$timeout) {
+app.controller('mainController', function($scope, $http) {
 	
-	//enter code to call backend controllers 
+	$scope.user={
+			username: "",
+			password: ""
+	}
+	
+	$scope.login=function(){
+		
+		
+	}
 	
 });

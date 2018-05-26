@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <!-- Add stylesheets here -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.6/ui-grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.6/ui-grid.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/mainApp.css" type="text/css" rel="stylesheet">
+        
+    
+    <!-- Add javascripts here -->
+	   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-sanitize.min.js"></script>
+	   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-cookies.min.js"></script>
+	   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+	  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.6/ui-grid.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.js"></script>
+    
+    	<script type="text/javascript" src="js/loginEvents.js"></script>
+   
+    <!--Add Angular main Controllers file here-->
+    	<script type="text/javascript" src="js/controllers/mainApp.js"></script>
+    
+</head>
+    
+<body ng-app="app" >
+
+	 
+	 <!-- Login Module -->
+
+	<div ng-controller="mainController" class="loginPage">
+		
+			<div class="panel col-md-5 loginContainer">
+				<div class="panel-heading">
+						<img class="headerImage" src="images/SCGJ logo.png" />
+					<hr>
+				</div>
+				
+				<div class="panel-body">
+					<form ng-submit="login()">
+						<div class="input-group loginInputDiv">
+							<input type="email" id="username" class="form-control" ng-model="user.username" placeholder="Enter Username" required/>
+							<span class="input-group-addon userIcons"><i class="glyphicon glyphicon-user "></i></span>
+						</div>
+						<div class="input-group loginInputDiv">
+							<input type="password" id="userpassword" class="form-control" ng-model="user.password" placeholder="Enter Password" required/>
+							<span class="input-group-addon userIcons"><i id="eyeToggle" class="glyphicon glyphicon-eye-open" onclick="showPassword()"></i></span>
+							
+				      </div>
+				      <div class="loginInputDiv">
+							<button type="submit" value="submit" class="btn btn-primary btn-block">Login</button>
+						</div>
+					</form>
+				</div>
+			</div>	
+		</div>
+
+
+    
+
+	<script type="text/javascript" src="js/controllers/dashboard.js"></script>
+	<script type="text/javascript" src="js/controllers/dataImport.js"></script>
+	<script type="text/javascript" src="js/controllers/faq.js"></script>
+	<script type="text/javascript" src="js/controllers/generateCertificate.js"></script>
+	<script type="text/javascript" src="js/controllers/generateReports.js"></script>
+	<script type="text/javascript" src="js/controllers/manageAssessment.js"></script>
+	
+
+	
+	
+
+</body>
+
+<footer>
+
+
+   <!-- footer code here -->
+
+
+</footer>
+</html>
