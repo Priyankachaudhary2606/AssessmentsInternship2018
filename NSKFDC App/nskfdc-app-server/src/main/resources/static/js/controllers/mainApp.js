@@ -1,3 +1,4 @@
+// Module Intialization
 var app = angular.module('app', ['ngRoute',
 								'ui.grid',
 							    'ui.grid.edit',
@@ -6,17 +7,11 @@ var app = angular.module('app', ['ngRoute',
 							    'ui.bootstrap',
 							    'ui.grid.pagination']);
 
+//Angular controller = mainController
 
 app.controller('mainController', function($scope, $http) {
 	
-	$scope.user={
-			username: "",
-			password: ""
-	}
 	
-	$scope.login=function(){
-		
-		
-	}
+	//write your code here
 	
 });

@@ -31,45 +31,18 @@
     
 <body ng-app="app" >
 
+	<div ng-controller="mainController" >
 	 
-	 <!-- Login Module -->
+	 <!-- Write your code here -->
 
-	<div ng-controller="mainController" class="loginPage">
-		
-			<div class="panel col-md-5 loginContainer">
-				<div class="panel-heading">
-						<img class="headerImage" src="images/SCGJ logo.png" />
-					<hr>
-				</div>
-				
-				<div class="panel-body">
-					<form ng-submit="login()">
-						<div class="input-group loginInputDiv">
-							<input type="email" id="username" class="form-control" ng-model="user.username" placeholder="Enter Username" required/>
-							<span class="input-group-addon userIcons"><i class="glyphicon glyphicon-user "></i></span>
-						</div>
-						<div class="input-group loginInputDiv">
-							<input type="password" id="userpassword" class="form-control" ng-model="user.password" placeholder="Enter Password" required/>
-							<span class="input-group-addon userIcons"><i id="eyeToggle" class="glyphicon glyphicon-eye-open" onclick="showPassword()"></i></span>
-							
-				      </div>
-				      <div class="loginInputDiv">
-							<button type="submit" value="submit" class="btn btn-primary btn-block">Login</button>
-						</div>
-					</form>
-				</div>
-			</div>	
-		</div>
-
+	
+	</div>
 
     
 
 	<script type="text/javascript" src="js/controllers/dashboard.js"></script>
-	<script type="text/javascript" src="js/controllers/dataImport.js"></script>
-	<script type="text/javascript" src="js/controllers/faq.js"></script>
-	<script type="text/javascript" src="js/controllers/generateCertificate.js"></script>
-	<script type="text/javascript" src="js/controllers/generateReports.js"></script>
-	<script type="text/javascript" src="js/controllers/manageAssessment.js"></script>
+	
+	
 	
 
 	
