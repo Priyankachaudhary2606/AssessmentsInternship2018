@@ -8,6 +8,6 @@ public String getmymoney(String a, String b)
 {
 	String c=a+b;
 	
-	return c;
+	return "Your Balance is"+c;
 }
 }
