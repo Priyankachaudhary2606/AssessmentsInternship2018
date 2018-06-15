@@ -3,7 +3,7 @@ package com.nskfdc.scgj.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ChefService {
+public class SamridhiChefService {
 	public static String getBurgerMethod(String addComment){
 		return "Big Burger with " +addComment+" from Service of SpringBoot";
 	}
