@@ -3,7 +3,7 @@ package com.nskfdc.scgj.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class chef1service 
+public class Chef1Service
 {
 	public String makeburger(String a,String b)
 	{

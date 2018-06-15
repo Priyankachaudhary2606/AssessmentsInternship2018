@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 	@Service
 	
-	public class chefservice{
+	public class ChefService{
 		
 		public static String makeBurger(String Comment1, String Comment2 )
 		{
