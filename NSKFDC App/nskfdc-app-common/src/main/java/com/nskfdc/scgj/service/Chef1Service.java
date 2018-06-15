@@ -3,17 +3,13 @@ package com.nskfdc.scgj.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Chef1Service {
-	public static String Spoons()
+public class chef1service 
+{
+	public String makeburger(String a,String b)
 	{
-		return "Have the spoons";
+		String c=a+b;
+		return "serve the maggi "+c;
 	}
-	public static String Burger(String comment)
-	{
-		return "BigBurger"+comment;
-	}
-	public static String Chilli(String comment1, String comment2)
-	{
-		return "ChilliPotatoes"+comment1+comment2;
-	}
+	
+
 }
