@@ -1,0 +1,4 @@
+facebook:
+ bringUserDetails: >
+  select * from user
+   where username = :username;
