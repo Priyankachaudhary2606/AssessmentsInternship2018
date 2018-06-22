@@ -1,0 +1,226 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    height: 10vh;
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+i, span {
+    display: inline-block;
+}
+.navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+    text-align: center;
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #19b2cc;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #19b2cc;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 5px 0;
+    height: 65rem;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #ffffff;
+    background: #0a90a8;
+}
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 0.6em;
+}
+
+
+
+.dashboard-panel-body{
+    padding: 1em;
+    font-size: x-large;
+    color: white;
+    text-align:center;
+}
+.dashboard-panel-footer{
+    color: white;
+    text-align:center;
+}
+.col-md-6{
+    color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: 0 !important;
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        background: #19b2cc;
+        color: #fff;
+        transition: all 0.3s;
+    }
+    .navbar-brand img{
+        width: 25%;
+    }
+    .navbar-right img {
+        width: 6%;
+    }
+    .navbar-right h5{
+        display: inline-block;
+
+    }
+    .navbar-right{
+        margin-left: 30%;
+    }
+    .logo{
+        display: inline;
+    }
+    #sidebar .sidebar-header h3, #sidebar .CTAs {
+        display: none;
+    }
+
+    #sidebar .sidebar-header strong {
+        display: block;
+    }
+    #sidebar ul li a {
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 0.85em;
+    }
+
+    #sidebar ul li a i {
+        margin-right:  0;
+        display: block;
+        font-size: 1.8em;
+        margin-bottom: 5px;
+    }
+
+    #sidebar ul ul a {
+        padding: 10px !important;
+    }
+
+    #sidebar a[aria-expanded="false"]::before, #sidebar a[aria-expanded="true"]::before {
+        top: auto;
+        bottom: 5px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+}
+#smalt{
+    width: 15%;
+}
+#panel1 , #footer1{
+    background-color: orange;
+}
+#panel2 , #footer2{
+    background-color:lightblue;
+}
+#panel3 , #footer3{
+    background-color: darksalmon;
+}
+#panel4 , #footer4{
+    background-color:deepskyblue;
+}
+#pic1{
+    width: 95%;
+}
+#pic2{
+    width: 91%
+}
+#pic3{
+    width: 100%;
+}
+#pic4{
+    width: 91%;
+}
+#foot1{
+    width: 40%;
+}
+#foot2{
+    width: 40%;
+}
+#foot3{
+    width: 40%;
+}
+#logout{
+    width: 20%;
+}
+@media(max-width:768px){
+    #slide1{
+        display: flex;
+        flex-direction: column;
+    }
+}
