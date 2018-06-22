@@ -1,0 +1,24 @@
+#A{
+background-color: #48649f;
+    height: 8rem;
+}
+#top a{
+    margin-top: 2rem;
+    color: white;
+}
+#email{
+    color: white;
+}
+#pwd{
+    color: white;
+}
+#pwd1{
+    color: white;
+}
+#bottom{
+    height: 45rem;
+    background-color: #eef0f6;
+}
+#submit{
+        background-color: #69a74e;
+}

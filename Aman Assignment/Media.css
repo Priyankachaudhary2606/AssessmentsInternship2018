@@ -1,0 +1,26 @@
+.first{
+    height: 5em;
+    background-color: orange;
+}
+.second {
+      height: 5em;
+background-color: white;
+}
+.third{
+      height: 5em;
+    background-color: green;
+}
+@media(max-width:500px){
+    .first{
+          height: 5em;
+        background-color: black;
+    }
+     .second{
+           height: 5em;
+        background-color: crimson;
+    }
+     .third{
+           height: 5em;
+        background-color: yellow;
+    }
+}
