@@ -1,0 +1,4 @@
+assignQuery:
+ showDetails: >
+  select * from customer INNER JOIN contact on customer.customerId=contact.customerId WHERE contact.networkOperator="Airtel";
+  
