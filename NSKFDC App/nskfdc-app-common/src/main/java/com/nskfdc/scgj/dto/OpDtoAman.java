@@ -38,8 +38,6 @@ public class OpDtoAman extends BaseDto {
 		public void setAddress(String address) {
 			this.address = address;
 		}
-
-		/*------CONSTRUCTOR-------------*/
 		
 		public OpDtoAman(int customerId, String customerName, String address) {
 			super();
