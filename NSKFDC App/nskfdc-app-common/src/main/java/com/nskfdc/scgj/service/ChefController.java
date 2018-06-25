@@ -9,6 +9,6 @@ public class ChefController {
 	}
 	
 public static String makeMomos(String comment1,String comment2){
-	return " momos"+comment1+comment2;
+	return "momos"+comment1+comment2;
 }
 }
