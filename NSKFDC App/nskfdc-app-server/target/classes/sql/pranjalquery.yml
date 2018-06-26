@@ -1,0 +1,3 @@
+pranjalQuery:
+ showCustomerDetails: >
+   SELECT customer.customerId, customer.customerName, customer.address From customer INNER JOIN contact ON customer.customerId = contact.customerId WHERE contact.networkOperator="Airtel";

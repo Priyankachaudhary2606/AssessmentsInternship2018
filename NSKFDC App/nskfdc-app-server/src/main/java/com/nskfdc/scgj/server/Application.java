@@ -19,7 +19,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 
 public class Application 
-{
+{   
 	 /** The Constant LOGGER. */
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
     

@@ -1,0 +1,4 @@
+banksQuery:
+ showDetails: >
+  select * from customer where bankName ="hdfc";
+  
