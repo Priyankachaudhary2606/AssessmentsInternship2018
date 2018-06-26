@@ -1,0 +1,3 @@
+mannuQuery:
+ showCustomerDetails: >
+  select * from customer where bankName="HDFC";
