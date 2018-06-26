@@ -109,7 +109,7 @@ public abstract class AbstractDatasource {
             LOGGER.error("Unable to get password for oshadow parms: " + databasePassword);
         }
 
-        return "shivanshu";
+        return password;
     }
 
     /**
