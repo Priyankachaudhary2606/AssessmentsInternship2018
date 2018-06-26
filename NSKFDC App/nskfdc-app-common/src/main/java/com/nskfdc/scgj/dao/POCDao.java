@@ -15,6 +15,7 @@ import com.nskfdc.scgj.config.POCConfig;
 import com.nskfdc.scgj.dto.PocDto;
 
 @Repository
+
 public class POCDao extends AbstractTransactionalDao{
 	
 	private static final Logger LOGGER= LoggerFactory.getLogger(POCDao.class);
