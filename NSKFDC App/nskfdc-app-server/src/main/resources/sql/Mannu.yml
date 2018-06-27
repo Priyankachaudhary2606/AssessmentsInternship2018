@@ -1,0 +1,3 @@
+mannuQuery:
+ showLearnersData: >
+  select * from learners;
