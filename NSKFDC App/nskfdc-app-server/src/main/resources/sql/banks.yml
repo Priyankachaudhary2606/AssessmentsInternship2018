@@ -1,4 +1,4 @@
 banksQuery:
  showDetails: >
-  select * from customer where bankName ="hdfc";
+  select * from customer where bankName='hdfc';
   
