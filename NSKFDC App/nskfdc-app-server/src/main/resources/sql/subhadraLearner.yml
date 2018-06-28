@@ -1,0 +1,3 @@
+subhadraLearnerQuery:
+ learnerDetails: >
+  select * from learners;
