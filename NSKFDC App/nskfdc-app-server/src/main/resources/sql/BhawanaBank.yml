@@ -1,0 +1,5 @@
+bankQuery:
+ showCustomerDetailsOfHDFCBankUsers: >
+  select *
+   from bankcustomer 
+    WHERE bankName ='HDFC';

@@ -1,0 +1,7 @@
+anoQuery:
+ showAirtelNetworkOpreatorDetail: >
+  select customer.customer_Id, customer.customerName, customer.address
+   From customer 
+    INNER JOIN contract
+     ON customer.customer_Id=contract.customer_Id
+      WHERE contract.networkOpreater="Airtel";

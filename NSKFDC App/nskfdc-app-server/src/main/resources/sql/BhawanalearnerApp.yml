@@ -1,0 +1,3 @@
+learnerQuery:
+ showLearnerDetails: >
+  select * from learnerapp;
