@@ -1,0 +1,26 @@
+h3{
+    padding: 2%;
+    color: #d2691e;
+}
+.table{
+    background-color: #f0f8ff;
+    color: #000000;
+    padding: 3%;
+}
+.ui-grid-header-cell{
+  text-align: center;
+  background-color: #0375b4;
+  color:#ffffff;
+}
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+  background-color: #ffffff;
+}
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+  background-color: #ffffff;
+}
+.ui-grid-cell{
+  text-align: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #d4d4d4;;
+}
