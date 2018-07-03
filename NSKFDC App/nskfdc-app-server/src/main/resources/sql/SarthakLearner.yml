@@ -1,0 +1,3 @@
+SarthakLearnerQuery:
+ showSarthakLearnerDetails: >
+  select * from learners;
