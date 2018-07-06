@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: nskfdc-app-server
 Implementation-Version: 1.0.0
-Built-By: Ayush jain
+Built-By: Aman
 Implementation-Vendor-Id: com.nskfdc.scgj
-Build-Jdk: 1.8.0_161
+Build-Jdk: 1.8.0_171
 Implementation-URL: http://projects.spring.io/spring-boot/nskfdc-app/n
  skfdc-app-server/
 Created-By: Maven Integration for Eclipse
